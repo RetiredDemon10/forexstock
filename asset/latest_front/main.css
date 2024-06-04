@@ -1,0 +1,363 @@
+.none { display: none; }
+.content .wrapper .reg > form {
+    width: 552px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.content .wrapper .reg > form .blreg1,
+.content .wrapper .reg > form .blreg2,
+.content .wrapper .reg > form .blreg3 {
+    margin: 0 0 20px 0;
+}
+.content .wrapper .reg > form .blreg1 > h3,
+.content .wrapper .reg > form .blreg2 > h3,
+.content .wrapper .reg > form .blreg3 > h3 {
+    color: #5fa73a;
+    margin: 0 0 10px 0;
+    display: block;
+}
+.content .wrapper .reg > form .blreg1 > label,
+.content .wrapper .reg > form .blreg2 > label,
+.content .wrapper .reg > form .blreg3 > label {
+    display: block;
+    margin: 0 0 5px 0;
+}
+.content .wrapper .reg > form .blreg1 > input[type=text1],
+.content .wrapper .reg > form .blreg2 > input[type=text1],
+.content .wrapper .reg > form .blreg3 > input[type=text1],
+.content .wrapper .reg > form .blreg1 > input[type=password1],
+.content .wrapper .reg > form .blreg2 > input[type=password1],
+.content .wrapper .reg > form .blreg3 > input[type=password1],
+.content .wrapper .reg > form .blreg1 > input[type=captcha],
+.content .wrapper .reg > form .blreg1 > input[type=captcha],
+.content .wrapper .reg > form .blreg1 > input[type=captcha] {
+    margin: 0 0 10px 0;
+    width: 430px;
+}
+.content .wrapper .reg > form > input[type=submit] {
+    float: left;
+}
+.content .wrapper .reg > form > .ch {
+    float: left;
+    margin: 0px 0 0 50px;
+}
+.content .wrapper .reg > form > .ch > input[type=checkbox] {
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+.content .wrapper .page > h1,
+.content .wrapper .reg > h1 {
+    color: #0c92c9;
+    display: block;
+    padding: 0 0 0 45px;
+    margin: 0 0 20px 0;
+}
+.content .wrapper .page > h3 {
+    color: #5fa73a;
+}
+.content .wrapper .page .whoweare {
+    margin: 0 0 30px 0;
+    padding: 0 0 0 230px;
+    background: url("../images/who.html") left center no-repeat;
+    text-align: justify;
+}
+.content .wrapper .page .whoweare > h3,
+.content .wrapper .page .whatwedo > h3,
+.content .wrapper .page .legal > h3 {
+    color: #5fa73a;
+    padding: 0px 0px 10px 0px;
+}
+.content .wrapper .page .whatwedo {
+    padding: 0 0 0 230px;
+    background: url("../images/what.html") left center no-repeat;
+    text-align: justify;
+}
+.content .wrapper .page .legal {
+    padding: 0px 0 0 230px;
+    background: url("../images/legal.html") left center no-repeat;
+    text-align: justify;
+}
+.content .plans {
+    overflow: hidden;
+    z-index: 1000;
+    height: 438px;
+    background: url("../images/bg5.html") bottom center no-repeat;
+}
+.content .plans .wrapper .as2TopLeft {
+    padding: 20px 0;
+}
+.content .plans .wrapper .as2TopLeft > p {
+    display: block;
+    width: 590px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 8px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,.2);
+    text-align: center;
+    margin: 0px auto 20px auto;
+}
+.content .plans .wrapper .as2TopLeft ul {
+    overflow: hidden;
+}
+ul.bxslider > li {
+    z-index: 1;
+    position: relative;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li {
+    float: left;
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+    margin: 0 30px 0 0;
+    background: url("../images/bg11.html") bottom center repeat-x;
+    text-align: center;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li:last-of-type {
+    margin: 0;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li > h3 {
+    margin: 10px 0 0 0;
+    display: block;
+    color: #6a6667;
+    overflow: hidden;
+    font-family: "MyriadProBold";
+    text-shadow: 0 1px rgba(255,255,255,.3);
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li > h3 > span {
+    display: block;
+    float: left;
+    font-size: 30px;
+    line-height: 30px;
+    background: #8ad861;
+    text-shadow: 0 1px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 10px;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li > h3 > small {
+    display: block;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li .rnder {
+    height: 50px;
+    background: rgba(255,255,255,.4);
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    color: #54b1da;
+    text-shadow: 1px 1px rgba(255,255,255,.6);
+    line-height: 50px;
+    font-family: "MyriadProBold";
+    font-size: 30px;
+    box-shadow: 0 1px rgba(0,0,0,.1);
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li .pl1 {
+
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li > span > small {
+    font-size: 20px;
+    color: #eee;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li > p {
+    font-size: 12px;
+    color: #fff;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li ul {
+
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li ul li {
+    line-height: 34px;
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 0 1px rgba(0,0,0,.3);
+    background: url("../images/line2.html") bottom center repeat-x;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li > ul > li > span {
+    color: #fff;
+    font-family: "MyriadProBold";
+    font-size: 18px;
+}
+.content .plans .wrapper .as2TopLeft ul li > ul > li ul li:last-of-type {
+    background: none;
+}
+.content .plans .wrapper .as2TopLeft > a {
+    display: block;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 1px rgba(0,0,0,.2);
+    background: url("../images/submit.html") top center repeat-x;
+    box-shadow: 0 1px 2px rgba(0,0,0,.4);
+    text-align: center;
+    text-decoration: none;
+    margin: 30px auto 0 auto;
+}
+.content .plans .wrapper .as2TopLeft > a:hover {
+    background: url("../images/submit.html") bottom center repeat-x;
+}
+.content .block1 {
+    overflow: hidden;
+    background: #fff url("../images/bgN.html") top center repeat-x;
+}
+.content .block1 .wrapper {
+    padding: 30px 0px 0px 0px;
+    background: url("../images/bg10.html") left center no-repeat;
+}
+.content .block1 .wrapper .videoRev {
+    float: left;
+    width: 350px;
+    padding: 0 0 0 50px;
+}
+.content .block1 .wrapper .videoRev > span {
+    display: block;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.content .block1 .wrapper .videoRev > span > span {
+    color: #0c92c9;
+}
+.content .block1 .wrapper .videoRev > a {
+    display: block;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3) inset, 0 -3px 0 rgba(0,0,0,0.15) inset;
+    height: 60px;
+    line-height: 60px;
+    background: #0c92c9;
+    text-shadow: 0 1px rgba(0,0,0,.1);
+    color: #fff;
+    margin: 15px 0 0 0;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content .block1 .wrapper .videoRev > a:hover {
+    font-size: 21px;
+}
+.content .block1 .wrapper .videoRev > ul {
+    margin: 30px 0 0 0;
+}
+.content .block1 .wrapper .videoRev > ul > li .videoBlock {
+    float: left;
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom: 2px solid #8ad861;
+    box-shadow: 0 0 215px rgba(0,0,0,.3);
+    position: relative;
+}
+.content .block1 .wrapper .videoRev > ul > li .videoBlock > img {
+    border-radius: 5px;
+    position: relative;
+    z-index: 30;
+    width: 110px;
+    height: 110px;
+}
+.content .block1 .wrapper .videoRev > ul > li .videoBlock .shW {
+    width: 110px;
+    height: 110px;
+    top: 5px;
+    right: 5px;
+    background: url("../images/shW.html") right top no-repeat;
+    position: absolute;
+    z-index: 100;
+}
+.content .block1 .wrapper .videoRev > ul > li .videoBlock > a {
+    display: block;
+    position: absolute;
+    background: url("../images/play.html") center center no-repeat;
+    height: 120px;
+    z-index: 1000;
+    transition: all 0.2s linear;
+    -webkit-filter: brightness(50%);
+    bottom: -50px;
+    left: 0;
+    width: 120px;
+}
+.content .block1 .wrapper .videoRev > ul > li .videoBlock > a:hover {
+    -webkit-filter: brightness(100%);
+    bottom: 0;
+}
+.content .block1 .wrapper .videoRev > ul > li .vidTxt {
+    float: right;
+    width: 215px;
+}
+.content .block1 .wrapper .videoRev > ul > li {
+    overflow: hidden;
+    margin: 0 0 24px 0;
+}
+.content .block1 .wrapper .videoRev > ul > li:last-of-type {
+    margin: 0;
+}
+.content .block1 .wrapper .videoRev .vidTxt > span {
+    display: block;
+    margin: 5px 0 0 0;
+    background: url("../images/user.html") 10px center no-repeat;
+    padding: 0 0 5px 30px;
+    height: 20px;
+    line-height: 25px;
+    text-shadow: 1px 1px rgba(255,255,255,1);
+    border-bottom: 1px solid #ccc;
+}
+.content .block1 .wrapper .videoRev .vidTxt > small {
+    line-height: 13px;
+    text-shadow: 1px 1px rgba(255,255,255,1);
+    display: block;
+    color: #999;
+    margin: 5px 0 0 0;
+}
+.content .block1 .wrapper .videoRev .vidTxt > a {
+    width: 110px;
+    margin: 5px 0 0 0;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 0 0 17px;
+    font-size: 13px;
+    text-shadow: 0 1px rgba(0,0,0,.2);
+    background: url("../images/video.html") 10px center no-repeat, url("../images/submit.html") top center repeat-x;
+    box-shadow: 0 1px 2px rgba(0,0,0,.4);
+    border: none;
+}
+.content .block1 .wrapper .videoRev .vidTxt > a:hover {
+    background: url("../images/video.html") 10px center no-repeat, url("../images/submit.html") bottom center repeat-x;
+}
+.content .block1 .wrapper .mainContTxt {
+    float: right;
+    width: 650px;
+}
+.content .block1 .wrapper .mainContTxt > span {
+    display: block;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.content .block1 .wrapper .mainContTxt > span > span {
+    color: #0c92c9;
+}
+.content .block1 .wrapper .mainContTxt > ul {
+    margin: 30px 0 0 0;
+    text-align: justify;
+}
+.content .block1 .wrapper .mainContTxt > ul > li {
+    color: #556;
+    margin: 0 0 10px 0;
+}
+.content .block1 .wrapper .mainContTxt > ul > li:last-of-type {
+    margin: 0;
+}

@@ -1,0 +1,98 @@
+.cwrap
+{
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	position:fixed;
+	z-index:10001;
+	background: rgba(0,0,0,.5);
+}
+.grey
+{
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.modal_block
+{
+	width:580px;
+	min-width:100px;
+	margin:50px auto;
+	height:300px;
+	z-index:10002;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	min-height:100px;
+	display:block;
+	position:relative;
+		background: -webkit-gradient(linear, left top, right top, from(#E6E6E6), to(#EEEEEE));
+		background: -webkit-linear-gradient(top, #E6E6E6, #EEEEEE);
+		background: -moz-linear-gradient(top, #E6E6E6, #EEEEEE);
+		background: -o-linear-gradient(top, #E6E6E6, #EEEEEE);
+		background: -ms-linear-gradient(top, #E6E6E6, #EEEEEE);
+		background: linear-gradient(top, #E6E6E6, #EEEEEE);
+		background-color: #EEE;
+	border-bottom:4px solid #E9D16F;
+	border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.modal_block>.inset
+{
+	padding:0;
+	position:relative;
+	margin:0;
+}
+.modal_block div.block
+{
+	background:#fff;
+	margin:0!important
+}
+.box-modal{cursor:pointer}
+.modal_block .close
+{
+	position:absolute;
+	cursor:pointer;
+	right:15px;
+	top:11px;
+	opacity:1;
+	background: #E9D16F;
+
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	color:#fff;
+	text-shadow:0 1px 0 rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	width:70px;
+	border-radius: 5px;
+
+	z-index:99999;
+}
+.modal_block h2
+{
+	display: block;
+    position: relative;
+	font-weight: 100;
+	padding:0 0 0 0px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    margin:0 0 20px 0;
+    height: 50px;
+    background: #041E37;
+    position: relative;
+    border-radius: 0px 0px 0 0;
+    color: #fff;
+    text-shadow: 0 1px rgba(255,255,255,.3);
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 1px rgba(0,0,0,.1);
+}
+.modal_block h2 > span { color: #fff; }
+
+a.forgot { color:#918989; float:right; margin-top:5px;}

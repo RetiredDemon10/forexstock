@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+* {margin: 0;}
+body {font-family: 'Roboto', sans-serif; min-width: 1240px;}
+a {color:E9D16F;text-decoration: none;}
+a:hover {text-decoration: none;}
+ul {margin: 0; padding: 0; list-style: none;}
+.amk_wrap {width: 1200px; padding: 0 20px; margin: 0 auto;}
+.amk_left {float: left;} .amk_right {float: right;}
+.amk_clear {clear: both;}
+input[type="submit"], select {font-family: 'Roboto', sans-serif; cursor: pointer;}
+select {appearance: none; -moz-appearance: none; -webkit-appearance: none; border: none;}
+.amk_golden {color: #e9d16f;;}
+#amk_nav {background: #e9d16f;; overflow: hidden;}
+	#amk_nav ul {font-size: 13px; font-weight: 500; color: #2c254a; text-transform: uppercase; padding: 13px 0;}
+		#amk_nav ul li {display: inline-block; line-height: 18px;}
+			#amk_nav ul li img {vertical-align: middle; margin-right: 6px;}
+			#amk_nav ul li a {color: #2c254a; line-height: 18px;}
+	#amk_nav ul.amk_left {}
+		#amk_nav ul.amk_left li {margin-right: 28px;}
+			#amk_nav ul.amk_left li img {vertical-align: -6px;}
+			#amk_nav ul.amk_left li a {}
+	#amk_nav ul.amk_right {}
+		#amk_nav ul.amk_right li {margin-left: 20px;}
+			#amk_nav ul.amk_right li img {}
+			#amk_nav ul.amk_right li a {}
+#amk_menu {background: #2c254a;  overflow: hidden;}
+	#amk_menu .amk_logo {display: block; margin: 28px 0 0;}
+	#amk_menu ul {font-family: 'Lato', sans-serif; font-size: 15px; font-weight: 700; color: #fefefe; text-transform: uppercase; padding: 37px 0;}
+		#amk_menu ul li {display: inline-block; }
+			#amk_menu ul li a {display: block; color: #fefefe; border-bottom: 3px solid transparent; padding: 10px 0; margin: 0 12px;}
+			#amk_menu ul li:last-child a {margin-right: 0;}
+			#amk_menu ul li a:hover {color: #f4dd7e; border-bottom-color: #f4dd7e;}
+#amk_rates {background: #fafafa; text-align: center; overflow: hidden;}
+#amk_slider {background: url("Topwinning%20Coins/hustydesigns/asset/latest_front/slider.html") no-repeat center top / cover; overflow: hidden;}
+	#amk_slider .amk_slider {font-family: 'Roboto Slab', sans-serif; color: #FFF; text-transform: uppercase; padding: 115px 0 150px;}
+		#amk_slider .amk_slider h1 {font-size: 70px; font-weight: 700; line-height: 55px; letter-spacing: 5px; text-shadow: 0 0 1px #e9d16f;, 1px 1px 1px #e9d16f;, -1px -1px 1px #e9d16f;, -1px -1px 0 #e9d16f;, 1px 0 0 #e9d16f;, 0 1px 0 #e9d16f;, 1px 0 1px #e9d16f;, 0 1px 1px #e9d16f;, -1px 0 1px #e9d16f;, 0 -1px 1px #e9d16f;;}
+			#amk_slider .amk_slider h1 span {display: inline-block; border-bottom: 10px solid #e9d16f;; padding: 0 0 40px;}
+		#amk_slider .amk_slider h3 {font-size: 38px; line-height: 36px; color: #d6d6d6; margin: 40px 0 50px;}
+		#amk_slider .amk_slider .amk_btns {text-transform: uppercase;}
+			#amk_slider .amk_slider .amk_btns li {display: inline-block; text-align: center;}
+			#amk_slider .amk_slider .amk_btns a {display: block; font-size: 15px; font-weight: 700; color: #FFF; line-height: 47px; height: 47px; width: 202px; border: 2px solid #FFF; border-radius: 60px; margin: 0 15px 0 0;}
+			#amk_slider .amk_slider .amk_btns .amk_active a {background: #e9d16f;; border-color: #e9d16f;; color: #2c254a;}
+	#amk_slider .amk_stats {background: #e9d16fad; font-family: 'Roboto Slab', sans-serif; padding: 38px 0 35px; overflow: hidden;}
+		#amk_slider .amk_stats li {display: block; float: left; text-transform: uppercase; text-align: center; width: 28%;}
+		#amk_slider .amk_stats li:first-child {width: 16%;}
+			#amk_slider .amk_stats li h3 {font-size: 15px; font-weight: 700; color: #2c254a;}
+			#amk_slider .amk_stats li p {font-size: 28px; font-weight: 300; color: #2a2a2a;}
+.amk_h2 {background: url("h2_line1.html") no-repeat bottom center; font-family: 'Roboto Slab', sans-serif; font-size: 45px; font-weight: 700; line-height: 34px; color: #2c254a; text-align: center; text-transform: uppercase; padding: 0 0 38px;}
+#amk_plans {background: url("plans.png")  no-repeat center top / cover; font-family: 'Roboto Slab', sans-serif; padding: 75px 0 50px; overflow: hidden;}
+	#amk_plans .amk_pBlock {margin: 75px 0 58px; overflow: hidden;}
+		#amk_plans .amk_pBlock .amk_pBox {background: #2c254a; float: left; width: 265px; height: 375px; text-align: center; border-radius: 15px; margin-right: 46px; overflow: hidden;}
+		#amk_plans .amk_pBlock .amk_pBox:last-child {margin-right: 0;}
+			#amk_plans .amk_pBlock .amk_pBox .amk_pTitle {overflow: hidden;}
+				#amk_plans .amk_pBlock .amk_pBox .amk_pTitle h3 {float: left; font-size: 18px; font-weight: 300; color: #e9d16f;; width: 50%; line-height: 63px;}
+				#amk_plans .amk_pBlock .amk_pBox .amk_pTitle .amk_btn1 {display: block; float: right; font-size: 18px; font-weight: 300; color: #2c254a; width: 50%; line-height: 63px; background: #e9d16f;;}
+			#amk_plans .amk_pBlock .amk_pBox h4 {font-size: 45px; font-weight: 400; color: #e9d16f;; margin: 20px 0 10px;}
+			#amk_plans .amk_pBlock .amk_pBox h5 {font-size: 18px; font-weight: 400; color: #e9d16f;; text-decoration: underline; text-transform: uppercase;}
+			#amk_plans .amk_pBlock .amk_pBox ul {font-size: 17px; font-weight: 300; color: #FFF; line-height: 30px; margin: 10px 0 25px;}
+				#amk_plans .amk_pBlock .amk_pBox ul li {}
+			#amk_plans .amk_pBlock .amk_pBox .amk_btn2 {background: #e9d16f;; font-size: 20px; font-weight: 700; color: #2c254a; text-transform: uppercase; display: inline-block; width: 154px; height: 47px; line-height: 47px; border: 1px solid #7e7d55; border-radius: 5px;}
+			.custhdbtn2 {text-align:center;background: #e9d16f;; font-size: 16px; font-weight: 700; color: #2c254a; text-transform: uppercase; display: inline-block; width: 154px; height: 47px; line-height: 47px; border: 1px solid #7e7d55; border-radius: 5px;}
+	#amk_plans .amk_card {overflow: hidden;}
+		#amk_plans .amk_card .amk_cBox1 {width: 658px; margin: 52px 0 0;}
+			#amk_plans .amk_card .amk_cBox1 h3 {font-size: 45px; font-weight: 700; color: #2c254a; text-transform: uppercase;}
+			#amk_plans .amk_card .amk_cBox1 p {font-size: 15px; font-weight: 300; color: #2c254a; line-height: 23px; margin: 15px 0 30px;}
+			#amk_plans .amk_card .amk_cBox1 .amk_btn {display: inline-block; background: #e9d16f;; font-size: 18px; font-weight: 700; color: #2c254a; text-transform: uppercase; height: 48px; line-height: 48px; border-radius: 3px; padding: 0 17px;}
+		#amk_plans .amk_card .amk_cBox2 {}
+#amk_benefits {background: url("benefits.png") no-repeat center top / cover; border-top: 5px solid #394151; padding: 88px 0 125px; overflow: hidden;}
+	#amk_benefits .amk_h2 {background-image: url("h2_line2.html");}
+	#amk_benefits ul {margin: 34px 0 0; overflow: hidden;}
+		#amk_benefits ul li {width: 50%; margin: 110px 0 0;}
+		#amk_benefits ul li:nth-child(odd) {float: left;}
+		#amk_benefits ul li:nth-child(even) {float: right; text-align: right;}
+			#amk_benefits ul li:nth-child(even) p {float: right;}
+			#amk_benefits ul li h3 {font-size: 28px; font-weight: 700; color: #2c254a;}
+			#amk_benefits ul li p {font-size: 13px; font-weight: 300; color: #000; width: 300px;}
+#amk_about {font-family: 'Roboto Slab', sans-serif; background: url("about.png") no-repeat center top / cover; border-top: 5px solid #00006f; overflow: hidden;}
+	#amk_about .amk_h2 {background-image: url("h2_line3.html"); color: #e9d16f;;}
+	#amk_about .amk_about {margin: 125px 0 110px; overflow: hidden;}
+		#amk_about .amk_aBox1 {width: 720px; height: 486px; border: 10px solid #FFF; border-radius: 60px;}
+		#amk_about .amk_aBox2 {text-align: center; width: 630px;}
+			#amk_about .amk_aBox2 .amk_h2 {margin: 34px 0;}
+			#amk_about .amk_aBox2 p {font-size: 13px; font-weight: 300; color: #FFF; margin: 24px 0;}
+	#amk_about .amk_overview {margin: 0 0 40px; overflow: hidden;}
+		#amk_about .amk_oBox1 {width: 700px; margin: 10px 0 0;}
+			#amk_about .amk_oBox1 .amk_h2 {margin: 0 0 88px;}
+		#amk_about .amk_oBox2 {width: 445px;}
+			#amk_about .amk_oBox2 ul {}
+				#amk_about .amk_oBox2 ul li {margin: 0 0 30px; overflow: hidden;}
+				#amk_about .amk_oBox2 ul li .amk_oImg {float: right; width: 128px; margin: 10px 0 0;}
+				#amk_about .amk_oBox2 ul li .amk_oDesc {float: left; width: 290px; text-align: right;}
+					#amk_about .amk_oBox2 ul li h3 {font-size: 28px; font-weight: 700; color: #e9d16f;;}
+					#amk_about .amk_oBox2 ul li h4 {font-size: 18px; font-weight: 700; color: #FFF; margin: 3px 0 10px;}
+					#amk_about .amk_oBox2 ul li p {font-size: 13px; font-weight: 300; color: #FFF; line-height: 18px;}
+#amk_company {font-family: 'Roboto Slab', sans-serif; padding: 98px 0 40px; overflow: hidden;}
+	#amk_company .amk_cBox1 {width: 580px;}
+		#amk_company .amk_cBox1 .amk_h2 {margin: 0 0 58px;}
+		#amk_company .amk_cBox1 .amk_priceChart {width: 582px; overflow: hidden;}
+	#amk_company .amk_cBox2 {width: 580px;}
+		#amk_company .amk_cBox2 .amk_h2 {margin: 0 0 58px;}
+		#amk_company .amk_cBox2 .amk_certificate {width: 252px; overflow: hidden;}
+		#amk_company .amk_cBox2 ul {width: 280px; font-weight: 700; color: #2c254a; border-left: 10px solid #2c254a; margin: 41px 0 0;}
+			#amk_company .amk_cBox2 ul li {margin: 0 0 30px; padding: 0 0 0 20px;}
+			#amk_company .amk_cBox2 ul li:last-child {margin: 0;}
+				#amk_company .amk_cBox2 ul li h4 {font-size: 16px; line-height: 10px; margin: 0 0 6px;}
+				#amk_company .amk_cBox2 ul li p {font-size: 28px; line-height: 28px;}
+				#amk_company .amk_cBox2 ul li a {color: #2c254a;}
+#amk_live {background: url("live.html") no-repeat center top / cover; font-family: 'Roboto Slab', sans-serif; padding: 40px 0 55px; overflow: hidden;}
+	#amk_live .amk_table {color: #808080; width: 570px; border: 3px solid #e3cc6d; border-radius: 10px; overflow: hidden;}
+		#amk_live .amk_table h3 {background: #e3cc6d; font-size: 20px; font-weight: 300; color: #fff; height: 76px; border-bottom: 1px solid #baa657; padding: 0 20px; margin-bottom: 1px;}
+			#amk_live .amk_table h3::before {display: inline-block; content: ""; height: 76px; vertical-align: middle;}
+			#amk_live .amk_table h3 img {vertical-align: middle; margin-right: 18px;}
+		#amk_live .amk_table table {background: #FFF; width: 97%; border-collapse: collapse; margin: 0 10px; overflow: hidden;}
+			#amk_live .amk_table table td {font-size: 18px; color: #808080; height: 60px; border-bottom: 1px solid #ddd;}
+			#amk_live .amk_table table td:nth-child(1) {width: 280px; padding-left: 20px;}
+			#amk_live .amk_table table td:nth-child(2) {background:#f2f2f2;width: 118x;}
+			#amk_live .amk_table table td:nth-child(3) {width: 115px; text-align: right; padding-right: 20px;}
+			#amk_live .amk_table table tr:last-child td {border-bottom: 0;}
+#amk_location {background: url("location.html") no-repeat center top / cover; font-family: 'Roboto Slab', sans-serif; min-height: 545px; overflow: hidden;}
+	#amk_location .amk_title {height: 545px;}
+		#amk_location .amk_title::before {display: inline-block; content: ""; height: 545px; vertical-align: middle;}
+	#amk_location h3 {display: inline-block; font-size: 35px; font-weight: 700; color: #FFF; width: 100%; margin-left: -5px; text-transform: uppercase; text-align: center; vertical-align: middle;}
+#amk_footer {background: #2c254a; font-family: 'Roboto Slab', sans-serif; padding: 55px 0 70px; overflow: hidden;}
+	#amk_footer h3 {font-size: 25px; font-weight: 700; color: #e9d16f;; line-height: 27px; text-transform: uppercase; margin: 0 0 38px;}
+		#amk_footer h3::after {content: ""; display: block; background: #e9d16f;; height: 4px; width: 98px; margin: 15px 0 0;}
+	#amk_footer .amk_fBox1 {width: 280px; margin: 24px 0 0;}
+		#amk_footer .amk_fBox1 p {font-size: 12px; font-weight: 300; color: #d5d5d5; text-align: center; margin: 22px 0 0;}
+	#amk_footer .amk_fBox2 {width: 322px; margin: 0 0 0 145px;}
+		#amk_footer .amk_fBox2 ul {font-size: 13px; font-weight: 700; color: #FFF; text-transform: uppercase;}
+			#amk_footer .amk_fBox2 ul li {width: 161px; height: 34px; line-height: 34px;}
+				#amk_footer .amk_fBox2 ul li a {background: url("tick.html") no-repeat center left; color: #FFF; padding-left: 22px;}
+			#amk_footer .amk_fBox2 ul li:nth-child(odd) {float: left;}
+			#amk_footer .amk_fBox2 ul li:nth-child(even) {float: right;}
+	#amk_footer .amk_fBox3 {}
+		#amk_footer .amk_fBox3 ul {}
+			#amk_footer .amk_fBox3 ul li {font-weight: 700; text-transform: uppercase; margin: 0 0 18px;}
+			#amk_footer .amk_fBox3 ul li:last-child {margin: 0;}
+				#amk_footer .amk_fBox3 ul li h4 {font-size: 13px; color: #e9d16f;; text-decoration: underline;}
+				#amk_footer .amk_fBox3 ul li p {font-size: 13px; color: #FFF; line-height: 20px;}
+#amk_badges {background: #e9d16f;; font-family: 'Roboto Slab', sans-serif; padding: 30px 0; overflow: hidden;}
+	#amk_badges .amk_designed {margin: 6px 0 0;}
+#amk_copyrights {padding: 25px 0; overflow: hidden;}
+	#amk_copyrights p {font-size: 14px; font-weight: 300; color: #7f7f7f; text-align: center;}
+		#amk_copyrights p a {color: #7f7f7f;}

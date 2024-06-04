@@ -1,0 +1,83 @@
+.panel-calc
+{
+    width: 100%;
+    padding:0 25px 30px 25px;
+    margin: 20px auto 0 auto;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.panel-calc input, .panel-calc select
+{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+	width:100% !important;
+	height: 40px;
+	    background:linear-gradient(to bottom, #f7f7f8 0%,#ffffff 100%);
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+}
+.panel-calc ul>li{width:100%;
+		box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+display:inline-block;vertical-align:top;//border:1px solid #fff}
+.panel-calc ul>li.light{margin-top:10px;margin-bottom:10px}
+.panel-calc ul>li.calc-select { width:70%; float:left; padding-left:10px;}
+.panel-calc ul>li.calc-amount { width:30%; float:left; padding-right:10px;}
+.panel-calc ul>li.blocks-profit { display: none; }
+.panel-calc ul>li.blocks-profit2 {  width:30%; float:left; padding-right:10px;  }
+.panel-calc ul>li.blocks-profit3 {  width:70%; float:left; padding-left:10px;  }
+.panel-calc ul>li label
+{
+	text-transform:uppercase;
+	font-size:13px;
+	color: #74b200;
+	height:20px;
+  display: block;
+  text-align: left;
+	line-height:30px;
+  margin: 0 0 10px 0;
+}
+
+.min-value{float:left;opacity:.5;font-size:10px;margin-top:-10px}
+.max-value{float:right;opacity:.5;font-size:10px;margin-top:-10px}
+div.selector{
+	width:100%;position:relative;margin:10px 0 20px;display:block;
+	height:8px; background: #fff; box-shadow:inset 0 3px 3px rgba(0,0,0,0.03); border-radius: 5px;}
+div.selector>.p_line{width:100%;display:block;height:8px;cursor:pointer}
+div.selector>.resize{position:relative;top:-20px;margin-left:0;z-index:40;
+	border:none;cursor:e-resize;height:16px;width:16px}
+div.selector>.resize:before
+{
+	height:16px;width:16px;content:'';
+	position:absolute;
+	    background: #E9D16F;
+	background: #E9D16F;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.3);
+	border-radius:100%;
+	box-shadow: 0 1px 2px rgba(0,0,0,.4);
+}
+.p_before{height:8px; border-radius:5px 0 0 5px; background-color:#041E37; }
+div.selector>.resize>span{display:none;color:#fff;border:3px solid #fff;
+		left:-50%;line-height:20px;margin-top:-5px;padding:0 5px;position:absolute;
+		height:20px;border-radius:2px;background:#3889b8}
+	.blocks-profit{text-align:center;}
+	.blocks-profit>span{	text-transform:uppercase;
+        font-size:17px;
+
+        height:20px;
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        line-height:30px;
+        margin: 0 0 10px 0;}
+	.blocks-profit>input{text-align: center;width: 300px !important;font-size: 21px;
+		height:45px}
+
+.calc-select { float:left; width:50%; }
+
+
